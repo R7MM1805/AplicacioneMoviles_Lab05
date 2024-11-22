@@ -35,7 +35,7 @@ class DetailProductActivity : AppCompatActivity() {
     }
 
     fun getProductByID(productId: String){
-        val url = "https://e2aca7ccd8.execute-api.us-east-1.amazonaws.com/v1/producto?id_producto=$productId"
+        val url = "https://i9acjuyjt5.execute-api.us-east-1.amazonaws.com/v1/producto?id_producto=$productId"
         val stringRequest = JsonObjectRequest(
             Request.Method.GET, url, null, {
                     response ->

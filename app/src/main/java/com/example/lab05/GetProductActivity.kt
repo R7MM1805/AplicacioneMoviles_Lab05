@@ -31,7 +31,7 @@ class GetProductActivity : AppCompatActivity() {
     }
 
     fun searchProduct(){
-        val url = "https://e2aca7ccd8.execute-api.us-east-1.amazonaws.com/v1/productos"
+        val url = "https://i9acjuyjt5.execute-api.us-east-1.amazonaws.com/v1/productos"
         val stringRequest = JsonObjectRequest(
             Request.Method.GET, url, null, {
                     response ->

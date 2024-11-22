@@ -42,6 +42,12 @@
             android:id="@+id/btnGet"
             android:text="Obtener Producto"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/btnRegister"
+            android:text="Registrar Producto"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
